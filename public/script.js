@@ -70,7 +70,7 @@ function addUrl(url, shortenedUrl){
    button.onclick=()=>{
       navigator.clipboard.writeText(shortenedUrl);
       button.style.background='hsl(257, 27%, 26%)';
-      button.style.padding='4px 14px'
+      button.style.padding='6px 16px'
       button.textContent='Copied!';
    }
 

@@ -2,10 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-*{
-    font-family: 'Poppins', sans-serif; 
-    box-sizing: border-box;
+*:not(i){
+    font-family: 'Poppins', sans-serif !important; 
+    
 }
 
 .url-shortening{
@@ -29,23 +28,24 @@
 }
 
 .shortened-urls .url-container .input{
-    font-size: 18px;
     color: hsl(255, 11%, 22%);
+    font-weight: 500;
 }
 
 .shortened-urls .url-container .output{
     margin-left: auto;
     color: hsl(180, 66%, 49%);
-    font-size: 18px;
+    font-weight: 500;
 }
 
 .shortened-urls .url-container button{
     background-color: hsl(180, 66%, 49%);
     color: #fff;
-    padding: 4px 24px;
+    padding: 6px 24px;
     border-radius: 6px;
     margin-left: 16px;
     font-weight: 600;
+    font-size: 12px;
 }
 
 .shortened-urls .url-container button:hover{
