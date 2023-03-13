@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-*:not(i){
-    font-family: 'Poppins', sans-serif !important; 
-    
-}
 
 .url-shortening{
     background: url('/public/images/bg-shorten-desktop.svg');

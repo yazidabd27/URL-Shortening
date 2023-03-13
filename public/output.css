@@ -823,10 +823,6 @@ video {
   outline-width: 0px;
 }
 
-*:not(i){
-  font-family: 'Poppins', sans-serif !important;
-}
-
 .url-shortening{
   background: url('/public/images/bg-shorten-desktop.svg');
   background-color: hsl(257, 27%, 26%);
