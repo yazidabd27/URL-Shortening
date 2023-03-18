@@ -651,6 +651,14 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-boost-mobile {
+  background-image: url('/public/images/bg-boost-mobile.svg');
+}
+
+.bg-shorten-mobile {
+  background-image: url('/public/images/bg-shorten-mobile.svg');
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -794,6 +802,10 @@ video {
   line-height: 1.5;
 }
 
+.leading-tight {
+  line-height: 1.25;
+}
+
 .text-GV {
   --tw-text-opacity: 1;
   color: hsl(257 7% 63% / var(--tw-text-opacity));
@@ -823,8 +835,11 @@ video {
   outline-width: 0px;
 }
 
+*{
+  font-family: 'Poppins', sans-serif !important;
+}
+
 .url-shortening{
-  background: url('/public/images/bg-shorten-desktop.svg');
   background-color: hsl(257, 27%, 26%);
   background-repeat: round;
 }
@@ -888,7 +903,6 @@ video {
 }
 
 #boost{
-  background: url('/public/images/bg-boost-desktop.svg');
   background-color: hsl(257, 27%, 26%);
 }
 
@@ -921,7 +935,6 @@ footer .logo img{
 
 @media (max-width:640px) {
   .url-shortening{
-    background: url('/public/images/bg-shorten-mobile.svg');
     background-color: hsl(257, 27%, 26%);
     background-repeat: no-repeat;
     background-position-x: right;
@@ -958,7 +971,6 @@ footer .logo img{
   }
 
   #boost{
-    background: url('/public/images/bg-boost-mobile.svg');
     background-color: hsl(257, 27%, 26%);
     background-repeat: no-repeat;
     background-position: right;
@@ -1059,6 +1071,14 @@ footer .logo img{
 
   .sm\:flex-row {
     flex-direction: row;
+  }
+
+  .sm\:bg-boost-desktop {
+    background-image: url('/public/images/bg-boost-desktop.svg');
+  }
+
+  .sm\:bg-shorten-desktop {
+    background-image: url('/public/images/bg-shorten-desktop.svg');
   }
 
   .sm\:p-0 {

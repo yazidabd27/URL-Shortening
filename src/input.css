@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    font-family: 'Poppins', sans-serif !important;
+}
 
-.url-shortening{
-    background: url('/public/images/bg-shorten-desktop.svg');
+.url-shortening{    
     background-color: hsl(257, 27%, 26%);
     background-repeat: round;
 }
@@ -68,7 +70,7 @@
 }
 
 #boost{
-    background: url('/public/images/bg-boost-desktop.svg');
+    
     background-color: hsl(257, 27%, 26%);
 }
 
@@ -96,7 +98,6 @@ footer .logo img{
 
 @media (max-width:640px) {
     .url-shortening{
-        background: url('/public/images/bg-shorten-mobile.svg');
         background-color: hsl(257, 27%, 26%);
         background-repeat: no-repeat;
         background-position-x: right;
@@ -133,7 +134,6 @@ footer .logo img{
     }
 
     #boost{
-        background: url('/public/images/bg-boost-mobile.svg');
         background-color: hsl(257, 27%, 26%);
         background-repeat: no-repeat;
         background-position: right;
