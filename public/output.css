@@ -652,11 +652,11 @@ video {
 }
 
 .bg-boost-mobile {
-  background-image: url('/public/images/bg-boost-mobile.svg');
+  background-image: url('../public/images/bg-boost-mobile.svg');
 }
 
 .bg-shorten-mobile {
-  background-image: url('/public/images/bg-shorten-mobile.svg');
+  background-image: url('../public/images/bg-shorten-mobile.svg');
 }
 
 .p-4 {
@@ -1074,11 +1074,11 @@ footer .logo img{
   }
 
   .sm\:bg-boost-desktop {
-    background-image: url('/public/images/bg-boost-desktop.svg');
+    background-image: url('../public/images/bg-boost-desktop.svg');
   }
 
   .sm\:bg-shorten-desktop {
-    background-image: url('/public/images/bg-shorten-desktop.svg');
+    background-image: url('../public/images/bg-shorten-desktop.svg');
   }
 
   .sm\:p-0 {

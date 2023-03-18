@@ -15,10 +15,10 @@ module.exports = {
         HC:'#9DE1E0',
       },
       backgroundImage:{
-        'boost-desktop': "url('/public/images/bg-boost-desktop.svg')",
-        'boost-mobile': "url('/public/images/bg-boost-mobile.svg')",
-        'shorten-desktop': "url('/public/images/bg-shorten-desktop.svg')",
-        'shorten-mobile': "url('/public/images/bg-shorten-mobile.svg')",
+        'boost-desktop': "url('../public/images/bg-boost-desktop.svg')",
+        'boost-mobile': "url('../public/images/bg-boost-mobile.svg')",
+        'shorten-desktop': "url('../public/images/bg-shorten-desktop.svg')",
+        'shorten-mobile': "url('../public/images/bg-shorten-mobile.svg')",
       }
     },
   },
