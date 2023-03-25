@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+*:not(i){
     font-family: 'Poppins', sans-serif !important;
 }
 
@@ -64,8 +64,18 @@
     top: calc(40% - 40px);
 }
 
+#boost{
+    background-image: url('/public/images/bg-boost-desktop.svg');
+    background-repeat: round;
+}
+
 footer .logo img{
     filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(9deg) brightness(106%) contrast(100%);
+}
+
+.url-shortening{
+    background-image: url('/public/images/bg-shorten-desktop.svg');
+    background-repeat: round;
 }
 
 .url-shortening .input-container.empty::before{
@@ -87,6 +97,11 @@ footer .logo img{
 }
 
 @media (max-width:640px) {
+    .url-shortening{
+        background-image: url('/public/images/bg-shorten-mobile.svg');
+        background-repeat: no-repeat;
+        background-position-x: right;
+    }
 
     .shortened-urls .url-container{
         flex-direction: column;
@@ -145,5 +160,9 @@ footer .logo img{
 
     #collapse-navbar nav{
         border-bottom: 1px solid hsl(257, 7%, 63%);
+    }
+
+    #boost{
+        background-image: url('/public/images/bg-boost-mobile.svg');
     }
 }

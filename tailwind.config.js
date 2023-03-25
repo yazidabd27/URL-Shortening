@@ -13,12 +13,6 @@ module.exports = {
         VDV:'hsl(260, 8%, 14%)',
         unknown:'#F0F1F6',
         HC:'#9DE1E0',
-      },
-      backgroundImage:{
-        'boost-desktop': "url('/public/images/bg-boost-desktop.svg')",
-        'boost-mobile': "url('/public/images/bg-boost-mobile.svg')",
-        'shorten-desktop': "url('/public/images/bg-shorten-desktop.svg')",
-        'shorten-mobile': "url('/public/images/bg-shorten-mobile.svg')",
       }
     },
   },
