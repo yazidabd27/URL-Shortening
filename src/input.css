@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-*:not(i){
+/* *:not(i){
     font-family: 'Poppins', sans-serif !important;
-}
+} */
 
 .shortened-urls{
     position: relative;
@@ -74,7 +74,7 @@ footer .logo img{
 }
 
 .url-shortening{
-    background-image: url('/public/images/icon-brand-recognition.svg');
+    background-image: url('/public/images/bg-shorten-desktop.svg');
     background-repeat: round;
 }
 
