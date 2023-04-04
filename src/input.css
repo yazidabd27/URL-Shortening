@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* *:not(i){
+*:not(i){
     font-family: 'Poppins', sans-serif !important;
-} */
+}
 
 .shortened-urls{
     position: relative;
@@ -65,7 +65,7 @@
 }
 
 #boost{
-    background-image: url('/public/images/bg-boost-desktop.svg');
+    background-image: url('./images/bg-boost-desktop.svg');
     background-repeat: round;
 }
 
@@ -74,7 +74,7 @@ footer .logo img{
 }
 
 .url-shortening{
-    background-image: url('/public/images/bg-shorten-desktop.svg');
+    background-image: url('./images/bg-shorten-desktop.svg');
     background-repeat: round;
 }
 
@@ -98,7 +98,7 @@ footer .logo img{
 
 @media (max-width:640px) {
     .url-shortening{
-        background-image: url('/public/images/bg-shorten-mobile.svg');
+        background-image: url('./images/bg-shorten-mobile.svg');
         background-repeat: no-repeat;
         background-position-x: right;
     }
@@ -163,6 +163,6 @@ footer .logo img{
     }
 
     #boost{
-        background-image: url('/public/images/bg-boost-mobile.svg');
+        background-image: url('./images/bg-boost-mobile.svg');
     }
 }
