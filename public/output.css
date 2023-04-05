@@ -626,8 +626,8 @@ video {
   justify-content: space-between;
 }
 
-.overflow-x-hidden {
-  overflow-x: hidden;
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded-full {
