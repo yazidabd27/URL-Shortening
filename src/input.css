@@ -23,12 +23,14 @@
 .shortened-urls .url-container .input{
     color: hsl(255, 11%, 22%);
     font-weight: 500;
+    line-break: anywhere;
 }
 
 .shortened-urls .url-container .output{
     margin-left: auto;
     color: hsl(180, 66%, 49%);
     font-weight: 500;
+    margin: 20px;
 }
 
 .shortened-urls .url-container button{
